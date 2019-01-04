@@ -8,6 +8,7 @@ while(True):
     # frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     cv2.line(frame, (100, 200), (200, 400), (0, 255, 0), 10)
+    
     cv2.rectangle(frame, (100, 200), (200, 300), (0, 0, 255), 5)
 
     cv2.imshow('webCam', frame)
